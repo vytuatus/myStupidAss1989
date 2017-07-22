@@ -1,0 +1,56 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+
+        applicationId "com.example.alex.streetmusic"
+        minSdkVersion 14
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE-FIREBASE.txt'
+        exclude 'META-INF/NOTICE'
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    /* Firebase SDK */
+
+    /* Firebase UI */
+    compile 'com.android.support:appcompat-v7:25.2.0'
+    compile 'com.android.support:design:25.2.0'
+    compile 'com.firebase:firebase-client-android:2.4.0'
+    compile 'com.google.firebase:firebase-auth:11.0.1'
+    compile 'com.google.firebase:firebase-core:11.0.1'
+    compile 'com.google.firebase:firebase-database:11.0.1'
+    compile 'com.firebaseui:firebase-ui-database:1.2.0'
+    compile 'com.google.android.gms:play-services:11.0.1'
+    compile 'com.google.firebase:firebase-storage:11.0.1'
+    compile 'com.google.firebase:firebase-messaging:11.0.1'
+
+
+    /* Picasso library*/
+    compile 'com.squareup.picasso:picasso:2.5.0'
+    testCompile 'junit:junit:4.12'
+
+    /*Time Range Picker Dialog Library*/
+    compile 'com.github.tittojose:timerangepicker-library:0.2'
+}
+
+apply plugin: 'com.google.gms.google-services'

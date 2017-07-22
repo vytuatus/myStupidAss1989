@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1013150255362",
+    "firebase_url": "https://streetmusic-a3c02.firebaseio.com",
+    "project_id": "streetmusic-a3c02",
+    "storage_bucket": "streetmusic-a3c02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013150255362:android:12b615b699bd45db",
+        "android_client_info": {
+          "package_name": "com.example.alex.streetmusic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1013150255362-gfv9kntte0431v8r9g2qud49kcc78g9t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alex.streetmusic",
+            "certificate_hash": "C13F3595B3B274D22A1C1DDEAE789EF11AABA976"
+          }
+        },
+        {
+          "client_id": "1013150255362-h2njfairfd1jo61eks0hf4ldtqveibsu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9B4K5HFeF39ezP9jDlZfKm-ee6ePYnUo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1013150255362-h2njfairfd1jo61eks0hf4ldtqveibsu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
